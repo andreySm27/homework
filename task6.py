@@ -5,7 +5,7 @@ col=input("Count programmer: ");
 if col>10 and col < 16:
 	print(col);print(" програмистов");
 	pass;
-	else
+	else :
 		if col%10==1:
 			print(col);print(" програмист");
 		pass;
