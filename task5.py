@@ -1,7 +1,7 @@
 
-col=input("Count house: ");
-price=input("Price 1m: ");
-dist=input("Distance between house(m): ");
+col=int(input("Count house: "));
+price=int(input("Price 1m: "));
+dist=int(input("Distance between house(m): "));
 def sums(n):
 	x=0;
 	N=n
