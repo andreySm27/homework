@@ -1,10 +1,13 @@
+#!/usr/bin/env/ python\
+# -*- coding:utf-8 -*-
+# vim:fileencoding=utf-8
 col=input("Count programmer: ");
 if col%10==1:
-	print(".");
+	print(col);print(" програмист");
 	pass;
 elif col%10>=2 and col%10<=5:
-	print("a.");
+	print(col);print(" програмиста");
 	pass;
 else:
-	print("OB");
+	print(col);print(" програмистов");
 	pass;
