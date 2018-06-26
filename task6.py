@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # vim:fileencoding=utf-8
 col=input("Count programmer: ");
-if col>10 and col < 16:
+if col%100>10 and col%100 < 16:
 	print(col);print(" програмистов");
 elif col%10==1:
 	print(col);print(" програмист");
