@@ -1,7 +1,7 @@
 #!/usr/bin/env/ python\
 # -*- coding:utf-8 -*-
 # vim:fileencoding=utf-8
-col=input("Count programmer: ");
+col=int(input("Count programmer: "));
 if col%100>10 and col%100 < 16:
 	print(col);print(" програмистов");
 elif col%10==1:
